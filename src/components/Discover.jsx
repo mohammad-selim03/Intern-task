@@ -140,12 +140,12 @@ const Discover = () => {
         <h2 className="text-3xl font-extrabold uppercase mb-10">
           Discover More
         </h2>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-5">
+        <div className="flex flex-col lg:flex-row gap-12 md:gap-0 items-center justify-between">
+          <div className="grid grid-cols-3 md:grid-cols-5 items-center gap-5">
             {categories?.map((category, index) => (
               <button
                 key={index}
-                className={`rounded-2xl capitalize gap-5 px-3 py-1 font-semibold ${
+                className={`rounded-2xl capitalize gap-5 px-3 py-2 font-semibold ${
                   selectedCategory === category?.title
                     ? "bg-[#3F05D4] text-white"
                     : "bg-slate-200"

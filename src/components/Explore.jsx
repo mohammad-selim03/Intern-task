@@ -4,8 +4,8 @@ import Image from "next/image";
 const Explore = () => {
   return (
     <div className="mt-52">
-      <div className="flex items-center justify-evenly">
-        <div className="w-[596px] h-[259px]">
+      <div className="flex flex-col md:flex-row items-center justify-evenly">
+        <div className="w-full md:w-[596px] h-full  md:h-[259px] px-3 md:px-0">
           <p className="font-semibold">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -14,13 +14,13 @@ const Explore = () => {
             reprehenderit in qui officia deserunt mollit anim id est laborum.
           </p>
           <div className=" mt-5 flex justify-center font-semibold">
-            <button className="border-2 border-[#4000FF] w-[163px] h-[58px] text-[#4000FF]  rounded-3xl hover:bg-[#4000FF] transition-all duration-300 hover:text-white">
+            <button className="border-2 mb-5 md:mb-0 border-[#4000FF] w-[163px] h-[58px] text-[#4000FF]  rounded-3xl hover:bg-[#4000FF] transition-all duration-300 hover:text-white">
               Explore Now
             </button>
           </div>
         </div>
         <div>
-          <div className="w-[395px] h-[395px] rounded-2xl relative ">
+          <div className="w-[395px] h-[395px] rounded-2xl relative -ml-16 md:-ml-0">
             <div className="absolute inset-0 h-[300px] bg-[#31096A] rounded-2xl  transform translate-x-16 top-12 "></div>
             <div className="absolute inset-0 h-[350px] bg-[#980FA7] rounded-2xl  transform translate-x-8 top-6"></div>
             <div className="absolute inset-0  bg-[#1F3B68] rounded-2xl  transform "></div>

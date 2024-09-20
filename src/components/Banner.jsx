@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="relative">
+    <div className="relative ">
       {/* <div className="bg-[#363636] h-72 [clip-path:polygon(0%_0%,_100%_0%,_100%_60%,_50%_100%,_0_60%)] relative"></div> */}
       <div>
         <Image src={Vector1} alt="" className="w-full" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-screen-2xl mx-auto mt-[-100px] relative z-10 px-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-screen-2xl mx-auto mt-10 md:mt-[-100px] relative z-10 px-8  ">
         <div className="bg-[#C02424] w-full h-[300px] hover:scale-125 transition-all duration-300"></div>
         <div className="bg-[#146FE8] w-full h-[260px] hover:scale-125 transition-all duration-300"></div>
         <div className="bg-[#E76666] w-full h-[300px] hover:scale-125 transition-all duration-300"></div>
