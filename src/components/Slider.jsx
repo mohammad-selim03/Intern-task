@@ -25,7 +25,6 @@ const Slider = () => {
 
   return (
     <div className="overflow-hidden">
-      {/* Top Carousel Section */}
       <div className="flex items-center justify-between">
         <div></div>
         <BgCarousel />
@@ -44,12 +43,11 @@ const Slider = () => {
         </div>
       </div>
 
-      {/* Vector Image */}
+      {/* Big Image we render from first element of the array */}
       <div className="w-full">
         <Image src={Vector2} alt="image" className="w-full transition-all duration-300" />
       </div>
 
-      {/* Color Selection and Featured Section */}
       <div className="flex flex-col lg:flex-row justify-center gap-6 lg:justify-evenly px-4 py-10 lg:px-0">
         {/* Color Selection */}
         <div className="flex flex-col lg:flex-row gap-6 items-center lg:-mt-32">
@@ -80,7 +78,6 @@ const Slider = () => {
           </div>
         </div>
 
-        {/* Collection Featured Section */}
         <div className="w-full lg:w-[496px] h-auto flex flex-col gap-4 px-5 text-center lg:text-left lg:-mt-10">
           <p className="text-2xl md:text-3xl font-semibold">Collection Featured</p>
           <p className="font-semibold text-sm md:text-base">
