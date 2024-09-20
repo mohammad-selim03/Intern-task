@@ -4,7 +4,6 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div className="relative ">
-      {/* <div className="bg-[#363636] h-72 [clip-path:polygon(0%_0%,_100%_0%,_100%_60%,_50%_100%,_0_60%)] relative"></div> */}
       <div>
         <Image src={Vector1} alt="" className="w-full" />
       </div>
