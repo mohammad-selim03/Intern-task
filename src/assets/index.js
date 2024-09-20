@@ -1,4 +1,3 @@
-import SearchIcon from "./SearchIcon.png";
 import menImg from "./menImg.png";
 import Rectangle from "./Rectangle.png";
 import wared from "./wared.png";
@@ -13,4 +12,4 @@ import user4 from "./user4.png";
 
 
 
-export {SearchIcon, menImg, Rectangle, wared, Vector2, Vector1, user1, user2, user3, user4};
+export { menImg, Rectangle, wared, Vector2, Vector1, user1, user2, user3, user4};

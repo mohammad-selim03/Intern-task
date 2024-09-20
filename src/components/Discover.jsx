@@ -135,7 +135,7 @@ const Discover = () => {
   ];
 
   return (
-    <div className="px-20 mt-10">
+    <div className="px-20 mt-32">
       <div>
         <h2 className="text-3xl font-extrabold uppercase mb-10">
           Discover More
@@ -166,7 +166,6 @@ const Discover = () => {
               key={index}
               className="w-[291.53px] h-[402.74px] bg-white shadow-xl border border-gray-100 rounded-2xl p-4"
             >
-              {/* Card Gradient Background */}
               <div
                 className="w-[259.52px] h-[211.91px] rounded-xl"
                 style={{
@@ -174,7 +173,6 @@ const Discover = () => {
                 }}
               ></div>
 
-              {/* Avatar section */}
               <div className="flex -mt-8 px-4">
                 {item.people.map((person, idx) => (
                   <Image
@@ -190,7 +188,7 @@ const Discover = () => {
                 ))}
               </div>
 
-              {/* Card Content */}
+              {/* Card Content start here */}
               <div className="flex  flex-col justify-between">
                 <h2
                   className="text-xl font-bold px-2 mt-4"
@@ -210,7 +208,6 @@ const Discover = () => {
                   </span>
                 </div>
 
-                {/* Buttons */}
                 <div className="flex items-center justify-between px-2 mt-2">
                   <button
                     className="py-2 px-4 rounded-3xl text-white"
@@ -233,14 +230,17 @@ const Discover = () => {
             </div>
           ))}
         </div>
-        {/* map twice for same code we can do it with extend data and slice it for first 4 items and map it to display. and other is slice last 4 items and maping it..  */}
+
+
+        {/* map twice for same code, we can do it with extend data and slice it for first 4 items and map it to display. and other is slice last 4 items and maping it..  */}
+
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-16 gap-8 mb-20 ">
           {data?.map((item, index) => (
             <div
               key={index}
               className="w-[291.53px] h-[402.74px] bg-white shadow-xl border border-gray-300 rounded-2xl p-4"
             >
-              {/* Card Gradient Background */}
               <div
                 className="w-[259.52px] h-[211.91px] rounded-xl"
                 style={{
@@ -248,7 +248,6 @@ const Discover = () => {
                 }}
               ></div>
 
-              {/* Avatar section */}
               <div className="flex -mt-8 px-4">
                 {item.people.map((person, idx) => (
                   <Image
@@ -264,7 +263,6 @@ const Discover = () => {
                 ))}
               </div>
 
-              {/* Card Content */}
               <div className="flex  flex-col justify-between">
                 <h2
                   className="text-xl font-bold px-2 mt-4"
@@ -284,7 +282,6 @@ const Discover = () => {
                   </span>
                 </div>
 
-                {/* Buttons */}
                 <div className="flex items-center justify-between px-2 mt-2">
                   <button
                     className="py-2 px-4 rounded-3xl text-white"

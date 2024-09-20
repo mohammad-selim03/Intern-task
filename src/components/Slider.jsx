@@ -45,7 +45,7 @@ const Slider = () => {
         </div>
       </div>
       <div>
-        <Image src={Vector2} alt="" className="w-full" />
+        <Image src={Vector2} alt="image" className="w-full transition-all duration-300" />
       </div>
 
       <div className="flex  justify-evenly">
@@ -73,7 +73,7 @@ const Slider = () => {
                   key={index}
                   className={`${
                     item.title
-                  } h-[120px] w-[120px] rounded-3xl cursor-pointer ${
+                  } h-[120px] w-[120px] rounded-3xl cursor-pointer transition-all duration-300 ${
                     color === item.title ? "border-8 border-black" : ""
                   }`}
                   onClick={() => setColor(item.title)}
